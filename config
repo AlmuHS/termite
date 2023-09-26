@@ -43,7 +43,7 @@ scrollback_lines = 10000
 #scrollbar = off
 
 # Whether to prefer using the GTK dark theme variant.
-#gtk_dark_theme = false
+gtk_dark_theme = false
 
 # Enable smart copy. ^C will copy if text has been selected. ^V will paste. It
 # is no longer possible to send a ^V to the running program when this option is
@@ -56,12 +56,12 @@ scrollback_lines = 10000
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
 
-#foreground = #dcdccc
-#foreground_bold = #ffffff
-#background = #3f3f3f
+foreground = #000000
+foreground_bold = #ffffff
+background = #ffffff
 
 # 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+#background = rgba(0, 0, 0, 0)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
@@ -86,13 +86,13 @@ color15 = #ffffff
 
 [hints]
 #font = Monospace 12
-#foreground = #dcdccc
-#background = #3f3f3f
-#active_foreground = #e68080
-#active_background = #3f3f3f
+foreground = #dcdccc
+background = #3f3f3f
+active_foreground = #e68080
+active_background = #3f3f3f
 #padding = 2
-#border = #3f3f3f
-#border_width = 0.5
+border = #3f3f3f
+border_width = 0.5
 #roundness = 2.0
 
 # vim: ft=dosini cms=#%s
